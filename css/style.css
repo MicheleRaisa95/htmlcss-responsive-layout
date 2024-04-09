@@ -3,3 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* HEADER STYLE */
+
+header {
+    background-color: #0084fd;
+    padding: 1em;
+}
+
+header .menu-desktop {
+    display: none;
+}
+
+/* COMMON */
+
+.container {
+    max-width: 100vw;
+}
+
+.row-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* COLUMN */
+
+.col-50 {
+    width: 50%;
+    border: 1px solid black;
+}
+
+/* UTILITIES */
+
+.text-align-right {
+    text-align: right;
+}
+/* MEDIA QUERY */
+
+@media screen and (min-width: 769px) {
+    header .menu-desktop {
+        display: inline-block;
+    } 
+
+    header .menu-mobile {
+        display: none;
+    }
+}
