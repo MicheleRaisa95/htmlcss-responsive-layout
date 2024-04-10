@@ -88,6 +88,36 @@ main section#jumbo p {
 main section#startegic-planning img {
     width: 100%;
 }
+
+/*TESTIMONIAL SECTIONS*/
+
+main section#testimonials {
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+}
+
+main section#testimonials img {
+    width: 60%;
+    border-radius: 50%;
+    float: left;
+    padding: 5rem;
+}
+
+/* WORKING WITH US*/
+main section#beneftis-of-working-whit-us {
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+}
+
+
+#btn-violet {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    background-color:#9792e4;
+    border-radius: .9375rem;
+    text-decoration: none;
+}
 /* COMMON */
 
 .container {
@@ -170,31 +200,31 @@ main section#startegic-planning img {
 
 .col-testimonials {
     width: 100%;
-    height: 150px;
+   /* height: 150px;*/
     border: 1px solid black;
 }
 
 .col-beneftis-of-working-whit-us {
     width: 100%;
-    height: 150px;
+   /* height: 150px;*/
     border: 1px solid black;
 }
 
 .col-beneftis-of-working-whit-us-white {
     width: 100%;
-    height: 150px;
+    /*height: 150px;*/
     border: 1px solid black;
 }
 
 .col-about-us-60 {
     width: 100%;
-    height: 150px;
+    /*height: 150px;*/
     border: 1px solid black;
 }
 
 .col-about-us-40 {
     width: 100%;
-    height: 150px;
+   /*height: 150px;*/
     border: 1px solid black;
 }
 
@@ -228,6 +258,14 @@ main section#startegic-planning img {
 
 .color-white {
     color: #ffffff;
+}
+
+.color-purple {
+    color: #9792e4;
+}
+
+.color-gray {
+    color: #818181;
 }
 
 /* UTILITIES */
